@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+    background-color: aquamarine;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+main {
+    background-color: white;
+    padding: 5%;
+    border-radius: 2%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-conteiner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5%;
+}
+
+.qtd {
+text-align: end;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+button {
+    width: 100%;
+    text-align: start;
+    padding: 1%;
+    border: none;
+    border-radius: 2%;
+    cursor: pointer;
+    background-color: aqua;
+    color: black; 
+}
+
+.quiz-control{
+    display: none;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.quiz-control button {
+    text-align: center;
+}
