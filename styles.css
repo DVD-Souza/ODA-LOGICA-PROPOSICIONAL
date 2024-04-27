@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
+    font-size: 106%;
+    text-align: justify;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 2.5rem;
 }
 
 main {
@@ -24,8 +25,9 @@ main {
     padding: 5%;
     border-radius: 2%;
     width: 80%;
+    height: min-content 15px;
     display: flex;
-    align-items: center;
+    align-items: justify;
     justify-content: center;
     margin-bottom: 3%;
 }
@@ -67,4 +69,7 @@ button {
 
 .quiz-control button {
     text-align: center;
+}
+@media screen and (max-width: 769px) {
+    
 }

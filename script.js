@@ -63,3 +63,12 @@ function loadQuestion() {
 }
 
 loadQuestion();
+
+// Dom for title
+
+let title= document.getElementsByName('h1')
+addEventListener('mousemove',enter)
+
+ function enter(){
+  title.style.background = 'green'
+ }
